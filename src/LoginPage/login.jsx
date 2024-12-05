@@ -21,7 +21,7 @@ const Login = () => {
       credentials.password === storedUser.password
     ) {
       
-      window.location.href = 'https://www.instagram.com';
+      window.location.href = '/dashboard';
     } else {
       
       setError('Invalid username or password');
