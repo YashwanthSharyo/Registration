@@ -1,0 +1,45 @@
+
+.container1 {
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    align-items: center;
+    height: 100vh; 
+    background-color: white; 
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+
+  }
+  
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;  
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: white; 
+    box-shadow: 0 4px 10px; 
+  }
+
+  .container2 .btn{
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 250px;
+  }
+
+
+.h2{
+    text-align: center;
+    padding: 7px;
+}
+.register{
+  padding-top: 25px;
+}
